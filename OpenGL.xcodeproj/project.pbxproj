@@ -23,6 +23,7 @@
 		010F981417A7959D009C5285 /* NLOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F981317A7959D009C5285 /* NLOpenGLView.m */; };
 		010F981617A79791009C5285 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F981517A79791009C5285 /* OpenGLES.framework */; };
 		010F981817A797A1009C5285 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F981717A797A1009C5285 /* QuartzCore.framework */; };
+		015373A417A85E7C00754F90 /* nails@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 015373A317A85E7C00754F90 /* nails@2x.jpg */; };
 		01B5D29F17A7A179005D0CEA /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 01B5D29E17A7A179005D0CEA /* SimpleVertex.glsl */; };
 		01B5D2A117A7A1F8005D0CEA /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 01B5D2A017A7A1F8005D0CEA /* SimpleFragment.glsl */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		010F981317A7959D009C5285 /* NLOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLOpenGLView.m; sourceTree = "<group>"; };
 		010F981517A79791009C5285 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		010F981717A797A1009C5285 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		015373A317A85E7C00754F90 /* nails@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nails@2x.jpg"; sourceTree = "<group>"; };
 		01B5D29E17A7A179005D0CEA /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
 		01B5D2A017A7A1F8005D0CEA /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +136,7 @@
 				01B5D29E17A7A179005D0CEA /* SimpleVertex.glsl */,
 				01B5D2A017A7A1F8005D0CEA /* SimpleFragment.glsl */,
 				010F97F217A79542009C5285 /* Images.xcassets */,
+				015373A317A85E7C00754F90 /* nails@2x.jpg */,
 				010F97E717A79542009C5285 /* Supporting Files */,
 			);
 			path = OpenGL;
@@ -249,6 +252,7 @@
 			files = (
 				010F97EB17A79542009C5285 /* InfoPlist.strings in Resources */,
 				01B5D2A117A7A1F8005D0CEA /* SimpleFragment.glsl in Resources */,
+				015373A417A85E7C00754F90 /* nails@2x.jpg in Resources */,
 				010F97F317A79542009C5285 /* Images.xcassets in Resources */,
 				01B5D29F17A7A179005D0CEA /* SimpleVertex.glsl in Resources */,
 			);
